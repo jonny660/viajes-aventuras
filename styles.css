@@ -1,0 +1,44 @@
+.header {
+    background: #4A90E2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+.post {
+    flex: 3;
+    margin-right: 20px;
+}
+.sidebar {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+.post h2 {
+    color: #333;
+}
+.post .meta {
+    font-size: 0.9em;
+    color: #777;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4A90E2;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
